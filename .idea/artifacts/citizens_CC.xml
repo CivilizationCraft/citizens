@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="citizens-CC">
+    <output-path>$PROJECT_DIR$/out/artifacts/citizens_CC</output-path>
+    <root id="archive" name="citizens-CC.jar">
+      <element id="module-output" name="citizens.main" />
+    </root>
+  </artifact>
+</component>

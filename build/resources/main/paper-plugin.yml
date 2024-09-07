@@ -1,0 +1,4 @@
+name: citizens
+version: '1.0-SNAPSHOT'
+main: civcraft.org.example.citizens.Citizens
+api-version: '1.19'
