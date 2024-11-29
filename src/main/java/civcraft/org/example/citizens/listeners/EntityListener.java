@@ -56,7 +56,7 @@ public class EntityListener implements Listener {
             return;
         long currentTime = System.currentTimeMillis();
         this.dialogs.forEach((villager, dialog) -> {
-            if (currentTime-dialog.lastInteraction > 10000L && !(dialog.isAnswering)) {
+            if (currentTime - dialog.lastInteraction > 10000L && !(dialog.isAnswering)) {
                 dialog.sendLastMessage();
                 this.dialogs.remove(villager);
                 villager.setAI(true);

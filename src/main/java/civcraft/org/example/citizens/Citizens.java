@@ -35,9 +35,6 @@ public final class Citizens extends JavaPlugin {
         getServer().getPluginManager().registerEvents(entityListener, this);
     }
 
-    private void startRepeatingTask() {
-        }
-
     @Override
     public void onDisable() {
         // Logique d'arrêt du plugin
